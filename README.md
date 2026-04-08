@@ -1,39 +1,36 @@
-# Interactive Wall Calendar Component
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A polished, responsive, and highly interactive React/Next.js calendar component built for the Frontend Engineering Challenge. This project translates a static physical wall calendar design concept into a functional web component.
+## Getting Started
 
-## ✨ Features
+First, run the development server:
 
-* **Wall Calendar Aesthetic:** Features a prominent hero image that serves as a visual anchor, paired seamlessly with the current month's grid.
-* **Date Range Selector:** Interactive selection allowing users to pick a start and end date, complete with visual states for selected days and hover previews for the range in between.
-* **Integrated Monthly Notes:** A functional notes area that persists user input locally using the browser's `localStorage` API.
-* **Fully Responsive Layout:** Flawlessly adapts from a side-by-side desktop view to a gracefully stacked vertical layout on mobile devices.
-* **🎨 Creative Liberty - Dynamic Theme Switcher:** Includes an innovative theme selector that changes the calendar's hero image to high-quality, curated themes (Space, Nature, Abstract) directly from Unsplash.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🛠️ Tech Stack
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-* **Framework:** [Next.js](https://nextjs.org/) (App Router) / React
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/) for rapid, utility-first responsive styling.
-* **Date Logic:** [`date-fns`](https://date-fns.org/) for lightweight and reliable date manipulation.
-* **Icons:** [`lucide-react`](https://lucide.dev/) for clean, consistent UI icons.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🚀 Getting Started
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+## Learn More
 
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your system.
+To learn more about Next.js, take a look at the following resources:
 
-### Installation
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. Clone the repository:
-   ```bash
-   git clone <your-github-repo-url>
-   Navigate into the project directory:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-2.
-cd interactive-calendar
-Install the dependencies:
+## Deploy on Vercel
 
-3.
-npm install
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
